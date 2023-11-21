@@ -79,7 +79,6 @@ nav a:hover {
     margin: 20px 0;
     display: flex; /* Adiciona o display flex para alinhar os cards horizontalmente */
     justify-content: space-between; /* Espaço entre os cards */
-    flex-direction: column; /* Altera a direção para empilhar verticalmente */
     align-items: center; /* Centraliza os itens horizontalmente */
 }
 
@@ -108,11 +107,81 @@ nav a:hover {
 
 /* Cor do texto "Top" */
 .top-categorias h2 {
-    color: #000;
+    color: #f4912d;
     margin-bottom: 10px; /* Espaçamento entre "Top" e os cards */
 }
 
 /* Cor do texto "Categorias" */
 .top-categorias h2 span {
     color: #FFA500; /* Cor laranja */
+}
+
+
+/*PLANOS*/
+
+.planos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-image: url('img/footer-bg.jpg'); 
+}
+
+.plano {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.plano:hover {
+    transform: translateY(-5px);
+}
+
+.plano h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+.plano.bronze {
+    background: linear-gradient(45deg, #ffd700, #ffc107); /* Gradiente amarelo */
+}
+
+.plano.prata {
+    background: linear-gradient(45deg, #808080, #a9a9a9); /* Gradiente cinza */
+}
+
+.plano.ouro {
+    background: linear-gradient(45deg, #ffd700, #ffc107); /* Gradiente amarelo */
+    border: 2px solid #ff4500; /* Borda laranja */
+}
+
+.plano ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plano ul li {
+    color: #555;
+    margin: 8px 0;
+}
+
+.btn-assinar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4500; /* Laranja */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-assinar:hover {
+    background-color: #e04300; /* Tom mais escuro ao passar o mouse */
 }
