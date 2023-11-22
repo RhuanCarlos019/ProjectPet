@@ -1,12 +1,10 @@
-/* Reset de Estilos Padrão */
 body {
-    background: #f9f9f9;
+    background: #f9f9f9; /* Cor de fundo do body */
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; /* Altera a fonte para Oswald */
 }
 
-/* Estilo do Cabeçalho */
 header {
     background: #f4912d; /* Cor laranja */
     color: #fff; /* Cor do texto no header */
@@ -51,7 +49,6 @@ header {
     cursor: pointer;
 }
 
-/* Estilo da Barra de Navegação */
 nav {
     display: flex;
     justify-content: space-around;
@@ -69,85 +66,66 @@ nav a:hover {
     color: #ffbc58; /* Cor ao passar o mouse sobre os links */
 }
 
-/* Estilo dos Produtos */
-.produto-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+/*FAC*/
+.faq-container {
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
-}
-
-.produto-card {
-    width: 300px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    background: #fff;
-}
-
-.produto-img img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-}
-
-.produto-info {
-    padding: 20px;
-}
-
-.produto-card h3 {
-    margin: 0 0 10px;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.produto-card p {
-    color: #777;
-}
-
-.preco {
-    display: block;
-    margin: 10px 0;
-    font-size: 1.2em;
-    color: #f4912d;
-}
-
-.btn-comprar {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #f4912d;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-comprar:hover {
-    background-color: #e18526;
-}
-
-/* Filtros */
-
-.filtro-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #fff; /* Fundo branco para a barra de filtros */
-    padding: 10px;
+  }
+  .faq-container h1 {
+    text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
+  }
+  
+  .faq-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .faq-question {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .faq-answer {
+    display: none;
+    color: #555;
+  }
+  
+  /* Adicionando um estilo diferente para quando a resposta estiver visível */
+  .faq-answer.active {
+    display: block;
+  }
 
-.filtro-container label {
-    margin-right: 10px;
-}
-
-.filtro-container select {
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
     padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
