@@ -89,6 +89,7 @@ nav a:hover {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .categoria-card img {
@@ -155,3 +156,58 @@ nav a:hover {
   .carousel-next {
     right: 10px;
   }
+
+  .card-container {
+    display: flex;
+    justify-content: space-around; /* ou space-between, dependendo do espaçamento desejado */
+    align-items: center;
+    flex-wrap: wrap; /* Garante que os cards vão para a próxima linha quando não houver espaço suficiente */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card {
+    width: 200px; /* ou ajuste conforme necessário */
+    height: 150px; /* ou ajuste conforme necessário */
+    padding: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    margin-bottom: 20px; /* Espaçamento entre os cards, ajuste conforme necessário */
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card .card-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-face.front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra completamente a área do card */
+}
+
+.card .card-face.back {
+    transform: rotateY(180deg);
+    background-color: #e1e1e1;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulosrotativos{
+    padding: 20px;
+}
+.titulosrotativos h2{
+    font-family: 'Oswald', sans-serif; /* Altera a fonte para Oswald */
+}
