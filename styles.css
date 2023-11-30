@@ -66,10 +66,6 @@ nav a:hover {
     color: #ffbc58; /* Cor ao passar o mouse sobre os links */
 }
 
-.destaque {
-    /* Adicione estilos para os destaques, como imagens, textos, etc. */
-}
-
 .banner-promocional img {
     max-width: 100%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */

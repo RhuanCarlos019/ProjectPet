@@ -3,3 +3,7 @@ function toggleAnswer(questionNumber) {
     answer.classList.toggle('active');
   }
   
+  function redirectToAccountPage() {
+    window.location.href = 'conta.html';
+  }
+  

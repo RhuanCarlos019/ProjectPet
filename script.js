@@ -23,4 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
     prevButton.addEventListener("click", goToPrevSlide);
     nextButton.addEventListener("click", goToNextSlide);
   });
+
+  function redirectToAccountPage() {
+    window.location.href = 'conta.html';
+  }
+  
   

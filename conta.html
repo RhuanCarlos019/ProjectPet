@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Petshop</title>
+    <link rel="stylesheet" href="conta.css">
+    <!-- Inclua a biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Inclua a fonte Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap">
+</head>
+<body>
+    
+
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Petshop">
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar produtos">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="user-cart-icons" >
+            <i class="fas fa-user" onclick="redirectToAccountPage()"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="loginCadastro.html">Login ou Registro</a>
+        <a href="FAC.html">FAC</a>
+    </nav>
+
+    <div class="container">
+        <h1>Minha Conta</h1>
+        <div class="user-profile">
+          <div class="profile-pic-container">
+            <img id="profile-pic" src="default-profile-pic.jpg" alt="Foto de Perfil">
+            <input type="file" id="profile-pic-input" accept="image/*" onchange="loadProfilePic(event)">
+            <button onclick="updateProfilePic()">Atualizar Foto de Perfil</button>
+          </div>
+          <div class="user-info">
+            <label for="user-name">Nome:</label>
+            <input type="text" id="user-name" value="John Doe" readonly>
+            
+            <label for="vip-status">Cliente VIP:</label>
+            <input type="text" id="vip-status" value="Sim" readonly>
+            
+            <label for="user-address">Endereço:</label>
+            <input type="text" id="user-address" value="Rua ABC, 123" readonly>
+            
+            <label for="user-phone">Nº de Celular:</label>
+            <input type="text" id="user-phone" value="123-456-7890" readonly>
+          </div>
+        </div>
+        <div class="buttons">
+          <button onclick="editProfile()">Editar Dados</button>
+          <button onclick="updateProfile()">Atualizar Dados</button>
+        </div>
+        <div id="feedback-message" class="success-message"></div>
+      </div>
+
+      <script src="https://kit.fontawesome.com/SEU_ID_DO_KIT.js" crossorigin="anonymous"></script>
+      <script src="conta.js"></script>
+    
+</body>
