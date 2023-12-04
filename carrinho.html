@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="carrinho.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Seu Carrinho</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Petshop">
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar produtos">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="user-cart-icons" >
+            <i class="fas fa-user" onclick="redirectToAccountPage()"></i>
+            <i class="fas fa-shopping-cart" onclick="redirectToCartPage()"></i>
+        </div>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="loginCadastro.html">Login ou Registro</a>
+        <a href="FAC.html">FAC</a>
+    </nav>
+
+
+  <section id="cart">
+    <div class="product" data-price="99.99">
+      <img src="img/product-3.jpg" alt="Nome do Produto">
+      <div class="product-details">
+        <h2>Ração Pedigree</h2>
+        <p>Ração pedigree de 2kg</p>
+      </div>
+      <div class="quantity">
+        <button class="rounded-btn" onclick="updateQuantity(this, -1)">-</button>
+        <span>1</span>
+        <button class="rounded-btn" onclick="updateQuantity(this, 1)">+</button>
+      </div>
+      <p class="price">$99.99</p>
+      <button class="remove-btn" onclick="removeProduct(this)">Remover</button>
+    </div>
+    <!-- Adicione mais produtos conforme necessário -->
+  </section>
+  <section id="promo-code">
+    <input type="text" id="code-input" placeholder="Digite o código promocional">
+    <button class="apply-btn" onclick="applyPromoCode()">Aplicar Código</button>
+  </section>
+  <section id="checkout">
+    <p id="total">Total: $99.99</p>
+    <button class="checkout-btn" onclick="checkout()">Finalizar Compra</button>
+  </section>
+
+  <script>
+    function updateQuantity(button, amount) {
+      const quantityElement = button.parentNode.querySelector('span');
+      let quantity = parseInt(quantityElement.textContent);
+      quantity += amount;
+
+      if (quantity < 1) {
+        // Evita quantidade negativa
+        quantity = 1;
+      }
+
+      quantityElement.textContent = quantity;
+      updateTotal();
+    }
+
+    function removeProduct(button) {
+      const product = button.parentNode;
+      product.parentNode.removeChild(product);
+      updateTotal();
+    }
+
+    function updateTotal() {
+      const products = document.querySelectorAll('.product');
+      let total = 0;
+
+      products.forEach((product) => {
+        const price = parseFloat(product.getAttribute('data-price'));
+        const quantity = parseInt(product.querySelector('.quantity span').textContent);
+        total += price * quantity;
+      });
+
+      document.getElementById('total').textContent = `Total: $${total.toFixed(2)}`;
+    }
+
+    function applyPromoCode() {
+    const promoCodeInput = document.getElementById('code-input');
+    const enteredCode = promoCodeInput.value.trim().toUpperCase();
+
+    // Verifica se o código inserido é igual ao código de desconto
+    if (enteredCode === 'VIPTIGRESINHA') {
+      // Aplica o desconto de 15%
+      applyDiscount(0.15);
+      alert('Código promocional aplicado! Desconto de 15% aplicado.');
+    } else {
+      alert('Código promocional inválido.');
+    }
+
+    // Limpa o campo de entrada após o uso
+    promoCodeInput.value = '';
+
+    // Atualiza o total após aplicar o desconto
+    updateTotal();
+  }
+
+  function applyDiscount(discountPercentage) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    cart.forEach(product => {
+      product.price *= (1 - discountPercentage);
+    });
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    displayCart();
+  }
+
+    function checkout() {
+      // Adicione aqui a lógica para finalizar a compra
+      alert('Compra finalizada! Total: ' + document.getElementById('total').textContent);
+    }
+  </script>
+</body>
+</html>

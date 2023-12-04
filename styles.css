@@ -207,3 +207,26 @@ nav a:hover {
 .titulosrotativos h2{
     font-family: 'Oswald', sans-serif; /* Altera a fonte para Oswald */
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 08px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .company-info {
+    margin-top: 20px;
+  }

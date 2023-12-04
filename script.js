@@ -28,4 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.location.href = 'conta.html';
   }
   
+  function redirectToCartPage() {
+    window.location.href = 'carrinho.html';
+  }
   
