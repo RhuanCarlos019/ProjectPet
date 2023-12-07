@@ -79,6 +79,10 @@ Utilizamos em base os tons laranja, branco e cores claras, para uma identidade m
 
 ![Logo PetShop](img/logo.png)
 
+## Banners
+![Banner](img/hero-banner.jpg)
+![Banner](img/Carousell.png)
+
 ## Participantes
 
 Este projeto foi desenvolvido por uma equipe dedicada de colaboradores. Abaixo estão os perfis do GitHub de cada participante:
