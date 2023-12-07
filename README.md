@@ -83,6 +83,6 @@ Utilizamos em base os tons laranja, branco e cores claras, para uma identidade m
 
 Este projeto foi desenvolvido por uma equipe dedicada de colaboradores. Abaixo estão os perfis do GitHub de cada participante:
 
-- [Rhuan Carlos Prazeres]((https://github.com/RhuanCarlos019])
-- [Lorenzo Zimbres]([https://github.com/LoriaLawrenceZ])
-- [Luis Bomba]([(https://github.com/LuisOtavioBeckaman])
+- [Rhuan Carlos Prazeres](https://github.com/RhuanCarlos019)
+- [Lorenzo Zimbres](https://github.com/LoriaLawrenceZ)
+- [Luis Bomba](https://github.com/LuisOtavioBeckaman)
