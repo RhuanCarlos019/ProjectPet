@@ -15,15 +15,27 @@ Esta documentação é sua guia completa para navegar e utilizar todas as funcio
 
 ## Principais Recursos:
 
-Navegação Intuitiva: Explore facilmente nossas categorias de produtos e encontre exatamente o que precisa com uma navegação simples e intuitiva.
+Navegação Intuitiva: Explore facilmente nossas categorias de produtos, FAC, Home... e encontre exatamente o que precisa com uma navegação simples e intuitiva.
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/f59d6ad1-04c0-448f-b7d7-a1f7e4627cb6)
+
 
 Produtos Exclusivos: Descubra produtos exclusivos e de alta qualidade, desde alimentos gourmet até acessórios da moda, cuidadosamente selecionados para seus animais de estimação.
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/3295bb46-0d9d-42b2-a69b-62be53a8530a)
+
 
 Marcas Parceiras: Conheça as marcas parceiras que compartilham nossa paixão pela excelência em produtos para animais de estimação.
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/73c2a647-1bb7-4ce4-acc2-60cb1a237c76)
+
 
 Carrossel Promocional: Fique atualizado sobre ofertas especiais, descontos e produtos em destaque com nosso carrossel promocional.
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/70a4b2ab-2946-4715-987f-d98c4af7d75c)
+
 
 Login e Registro: Saiba como criar e gerenciar sua conta para uma experiência de compra personalizada.
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/65d44c0b-a1eb-4b6b-8e86-633600d72d97) 
+![image](https://github.com/RhuanCarlos019/ProjectPet/assets/123770612/018607ad-2b94-45c3-af01-15a5bfc0653b)
+
+
 
 Explorando a Documentação:
 Esta documentação é estruturada de maneira lógica para facilitar a localização de informações específicas. Utilize o índice para navegar rapidamente entre seções ou siga a leitura sequencialmente para uma compreensão abrangente.
