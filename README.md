@@ -1,6 +1,6 @@
 # PetBoutique - Documentação
 
-## Introdução
+## Introdução 
 
 Bem-vindo à documentação oficial da PetBoutique, sua boutique virtual exclusiva para animais de estimação! Nesta compilação detalhada, fornecemos informações abrangentes e orientações para tornar sua experiência com o PetBoutique suave, agradável e, acima de tudo, recompensadora.
 
@@ -11,35 +11,7 @@ O Que Esperar Nesta Documentação:
 Esta documentação é sua guia completa para navegar e utilizar todas as funcionalidades oferecidas pelo PetBoutique. Aqui, você encontrará informações detalhadas sobre a navegação no site, o processo de compra de produtos, informações sobre as marcas parceiras, sugestões de produtos, e uma visão geral de como tirar o máximo proveito da sua experiência de compra.
 
 ## Objetivos:
-Na PetBoutique, nossa missão é proporcionar uma experiência única e excepcional para tutores de animais de estimação, redefinindo os padrões de cuidado, conforto e estilo para os companheiros peludos em sua vida. Através de um compromisso inabalável com a excelência, buscamos alcançar os seguintes objetivos:
-
-Excelência em Qualidade:
-
-Fornecer produtos de alta qualidade que atendam aos mais altos padrões de segurança e nutrição para animais de estimação.
-Variedade e Seleção Cuidadosa:
-
-Oferecer uma ampla variedade de produtos, desde alimentos premium até acessórios elegantes, todos cuidadosamente selecionados para atender às diversas necessidades e gostos de nossos clientes e seus animais de estimação.
-Experiência do Cliente Excepcional:
-
-Garantir uma jornada de compra online suave e agradável, desde a navegação intuitiva até o processo de checkout, visando a satisfação total do cliente.
-Parcerias Estratégicas:
-
-Estabelecer e manter parcerias estratégicas com marcas reconhecidas por sua dedicação à qualidade e inovação em produtos para animais de estimação.
-Transparência e Informação:
-
-Fornecer informações claras e transparentes sobre cada produto, garantindo que os tutores possam tomar decisões informadas para o bem-estar de seus animais de estimação.
-Promoção da Saúde Animal:
-
-Apoiar iniciativas e produtos que promovam a saúde e o bem-estar dos animais de estimação, incentivando práticas de cuidado responsáveis.
-Engajamento Comunitário:
-
-Estabelecer uma comunidade ativa e engajada de amantes de animais de estimação, compartilhando dicas, histórias e conselhos sobre o cuidado e a felicidade dos animais.
-Inovação Contínua:
-
-Permanecer na vanguarda da indústria de produtos para animais de estimação, adotando inovações tecnológicas e desenvolvendo novas ofertas que antecipem e atendam às necessidades emergentes dos tutores de animais de estimação.
-Responsabilidade Ambiental:
-
-Adotar práticas sustentáveis e ecológicas sempre que possível, minimizando nosso impacto no meio ambiente.
+### Desenvolver um website front-end e back-end de maneira completa, funcional e visualmente atrativo para nosso usuario.
 
 ## Principais Recursos:
 
@@ -70,6 +42,22 @@ Durante o desenvolvimento deste projeto, foram utilizados os seguintes recursos 
 - [Canva](https://www.canva.com/pt_br/) - Utilizado para criação e edição de imagens.
 - [Alura](https://www.alura.com.br/) - Utilizado para estudos e desenvolvimento do projeto.
 
+## Tecnologias Utilizadas
+#### Versionamento:
+- Github
+
+#### BackEnd:
+- Node.js
+
+#### Banco de dados:
+- MySQL
+
+#### FrontEnd:
+- Angular (Framework)
+- HTML
+- CSS
+- JavaScript
+
 ## Identidade Visual
 
 A identidade visual da PetShop foi cuidadosamente escolhida para transmitir uma experiência amigável e acolhedora para os amantes de animais. As cores e elementos visuais foram escolhidos para criar uma atmosfera positiva e confiável.
@@ -83,6 +71,7 @@ Utilizamos em base os tons laranja, branco e cores claras, para uma identidade m
 ![Banner](img/hero-banner.jpg)
 ![Banner](img/Carousell.png)
 
+Criado pelo Canva - [Canva](https://www.canva.com/pt_br/)
 ## Participantes
 
 Este projeto foi desenvolvido por uma equipe dedicada de colaboradores. Abaixo estão os perfis do GitHub de cada participante:
