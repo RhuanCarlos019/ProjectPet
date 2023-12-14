@@ -1,6 +1,6 @@
 # PetBoutique - Documentação
 
-## Introdução 
+## Introdução 🔼
 
 Bem-vindo à documentação oficial da PetBoutique, sua boutique virtual exclusiva para animais de estimação! Nesta compilação detalhada, fornecemos informações abrangentes e orientações para tornar sua experiência com o PetBoutique suave, agradável e, acima de tudo, recompensadora.
 
@@ -10,10 +10,10 @@ O PetBoutique é mais do que uma simples loja online para produtos de animais de
 O Que Esperar Nesta Documentação:
 Esta documentação é sua guia completa para navegar e utilizar todas as funcionalidades oferecidas pelo PetBoutique. Aqui, você encontrará informações detalhadas sobre a navegação no site, o processo de compra de produtos, informações sobre as marcas parceiras, sugestões de produtos, e uma visão geral de como tirar o máximo proveito da sua experiência de compra.
 
-## Objetivos:
+## Objetivos: 🥇
 ### Desenvolver um website front-end e back-end de maneira completa, funcional e visualmente atrativo para nosso usuario.
 
-## Principais Recursos:
+## Principais Recursos: 🖱️
 
 ### Navegação Intuitiva: Explore facilmente nossas categorias de produtos, FAC, Home... e encontre exatamente o que precisa com uma navegação simples e intuitiva.
 
@@ -50,7 +50,7 @@ Esta documentação é estruturada de maneira lógica para facilitar a localiza�
 Estamos empenhados em oferecer um ambiente online seguro, acessível e gratificante para você e seus animais de estimação. A equipe do PetBoutique agradece por escolher nossa boutique virtual como seu destino preferido para produtos de qualidade para animais de estimação. Boas compras!
 
 
-## Fontes de pesquisa
+## Fontes de pesquisa 🧐
 
 Durante o desenvolvimento deste projeto, foram utilizados os seguintes recursos e bibliotecas:
 
@@ -61,7 +61,7 @@ Durante o desenvolvimento deste projeto, foram utilizados os seguintes recursos 
 - [Canva](https://www.canva.com/pt_br/) - Utilizado para criação e edição de imagens.
 - [Alura](https://www.alura.com.br/) - Utilizado para estudos e desenvolvimento do projeto.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 📱
 #### Versionamento:
 - Github
 
